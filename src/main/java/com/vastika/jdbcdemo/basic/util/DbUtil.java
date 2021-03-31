@@ -15,6 +15,4 @@ public class DbUtil {
         Class.forName(DRIVER_NAME);
         return DriverManager.getConnection(DB_URL, USER_NAME, PASSWORD);
     }
-
-
 }
